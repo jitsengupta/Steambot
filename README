@@ -1,0 +1,19 @@
+# Conections
+
+Internal LED: GPIO16
+Buzzer: GPIO13
+USS: Trigger: GPIO14 Echo: GPIO12
+Left Motor: PWM 4 Direction 2
+Right motor: PWM 5 Direction 0
+
+--- In the order of the DX format:
+D0 - LED
+D1 - Right PWM
+D2 - Left PWM
+D3 - Right Dir
+D4 - Left Dir
+D5 - USS Trig
+D6 - USS Echo
+D7 - Buzzer
+
+Note the left and right motors need to be spun in opposite directions.
